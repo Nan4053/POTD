@@ -1,5 +1,6 @@
 // 1353. Maximum Number of Events That Can Be Attended
 // 🟠 Medium
+// AMAZON, SALESFORCE, JPMORGAN
 // why it is medium? // This problem is considered medium because it requires a good understanding of greedy algorithms and priority queues.
 // The challenge lies in efficiently managing overlapping events and maximizing the number of events attended without conflicts.
 // why we are sorting the events? // We sort the events by their start times to facilitate the management of overlapping events.
