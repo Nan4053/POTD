@@ -1,5 +1,10 @@
 // 1353. Maximum Number of Events That Can Be Attended
 // 🟠 Medium
+// why it is medium? // This problem is considered medium because it requires a good understanding of greedy algorithms and priority queues.
+// The challenge lies in efficiently managing overlapping events and maximizing the number of events attended without conflicts.
+// why we are sorting the events? // We sort the events by their start times to facilitate the management of overlapping events.
+// why we are using priority queue? // We use a priority queue to efficiently manage the end times of events, allowing us to quickly determine which events can be attended on a given day.
+// why we are using greedy algorithm? // The greedy approach is used to always attend the earliest available event, maximizing the number of events attended without conflicts.
 
 class Solution {
 public:
