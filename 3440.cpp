@@ -1,5 +1,10 @@
 // 3440. Reschedule Meetings for Maximum Free Time II
 // 🟠 Medium
+// why it is medium? // This problem is considered medium because it requires understanding of how to 
+// efficiently calculate free time between events and handle multiple gaps.
+// why we are precomputing maxLeftFree and maxRightFree? // We precompute maxLeftFree and maxRightFree to 
+// quickly access the maximum free time available on either side of a given event, allowing us to efficiently 
+// determine if an event can be rescheduled without exceeding the maximum free time.
 
 
 class Solution {
